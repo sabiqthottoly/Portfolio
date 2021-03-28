@@ -1,0 +1,104 @@
+{
+    "basic_info": {
+      "description_header": "ഹായ്",
+      "description": "👋, ഞാൻ സാബിക് തോട്ടോലി ബഷീർ, ജാവാസ്ക്രിപ്റ്റ്, എച്ച്ടിഎംഎൽ, സി‌എസ്‌എസ്, മൊബൈൽ റെസ്പോൺസിബിൾ വെബ്‌സൈറ്റ് വികസനം, അതുപോലെ ക്രോസ് പ്ലാറ്റ്ഫോം സാങ്കേതികവിദ്യ ഉപയോഗിച്ച് ആപ്ലിക്കേഷൻ വികസനം എന്നിവയിൽ ആഴത്തിലുള്ള അറിവും വൈദഗ്ധ്യവുമുള്ള സ്വയം പ്രചോദിത ഐടി പ്രൊഫഷണൽ.",
+      "section_name": {
+        "about": "എന്നെ പറ്റി",
+        "projects": "പ്രോജക്റ്റ്",
+        "skills": "കഴിവുകൾ",
+        "experience": "അനുഭവം"
+      }
+    },
+    "projects": [
+      {
+        "title": "Web development",
+        "startDate": "2020",
+        "description": "static websites, build accordning to clinet requirments",
+        "images": [
+          "../images/portfolio/animal-shelter/p1.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Mobile App development",
+        "startDate": "2020",
+        "description": "Mobile app UI developments :)",
+        "images": [
+          "../images/portfolio/photography/p1.jpg"
+        ],
+        "url": " ",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "UI/UX Designs",
+        "startDate": "2019",
+        "description": "Web sites UI designs.",
+        "images": [
+          "../images/portfolio/adventure/p1.jpg"
+        ],
+        "url": " ",
+        "technologies": [
+          {
+            "class": "devicon-photoshop-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-xd-plain",
+            "name": "TypeScript"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Centgrade private limited",
+        "title": "Full stack Developer",
+        "years": "9.2020 - present",
+        "mainTech": [
+          "React and NodeJs"
+        ],
+        "technologies": [
+          "React Js",
+          "React Native",
+          "REST API",
+          "RxJS",
+          "JavaScript",
+          "Bootstrap",
+          "Node Js",
+          "MongoDb",
+          "Express Js"
+        ]
+      },
+      {
+        "company": "Freelance",
+        "title": "UI/UX designer",
+        "years": "10.2019 - 07.2020",
+        "mainTech": [
+          "Photoshop"
+        ],
+        "technologies": [
+          "Adode Photoshop",
+          "Adobe Xd"
+        ]
+      }
+    ]
+  }
