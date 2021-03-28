@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProjectDetailsModal from "./ProjectDetailsModal";
+// import ProjectDetailsModal from "./ProjectDetailsModal";
 
 const ProjectImages= [
   {
@@ -25,9 +25,9 @@ class Projects extends Component {
   }
 
   render() {
-    let detailsModalShow = (data) => {
-      this.setState({ detailsModalShow: true, deps: data });
-    };
+    // let detailsModalShow = (data) => {
+    //   this.setState({ detailsModalShow: true, deps: data });
+    // };
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
@@ -72,12 +72,12 @@ class Projects extends Component {
           <div className="col-md-12 mx-auto">
             <div className="row mx-auto">{projects}</div>
           </div>
-          <ProjectDetailsModal
+          {/* <ProjectDetailsModal
             show={this.state.detailsModalShow}
             onHide={detailsModalClose}
             data={this.state.deps}
             images={ProjectImages}
-          />
+          /> */}
         </div>
       </section>
     );
